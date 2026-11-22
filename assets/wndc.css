@@ -1,0 +1,82 @@
+@import url("style.css");
+
+/* WNDC — Andrew Ng layout with a tighter reading rhythm */
+.version-wndc body, body.version-wndc { font-size: 16px; line-height: 1.68; }
+.version-wndc .header-inner { min-height: 68px; }
+.version-wndc .hero { grid-template-columns: 260px minmax(0, 1fr); gap: 48px; padding-top: 44px; padding-bottom: 42px; }
+.version-wndc .hero h1 { font-size: 54px; margin-bottom: 22px; }
+.version-wndc .hero h1 span { font-size: 22px; margin-top: 9px; }
+.version-wndc .intro p { margin-bottom: 13px; }
+.version-wndc .contact-line { margin-top: 18px; }
+.version-wndc .section { padding-top: 31px; padding-bottom: 25px; }
+.version-wndc .section h2 { font-size: 36px; margin-bottom: 21px; }
+.version-wndc .subhead { font-size: 21px; margin-bottom: 13px; }
+.version-wndc .awards-subhead, .version-wndc .program-subhead, .version-wndc .list-subhead { margin-top: 29px; }
+.version-wndc .honor-item { padding: 10px 0 11px; }
+.version-wndc .award { padding: 14px 0; gap: 22px; }
+.version-wndc .project { padding: 17px 0 18px; }
+.version-wndc .project h3 { font-size: 21px; margin: 5px 0 6px; }
+.version-wndc .metrics { margin: 23px 0 27px; padding: 17px 0 16px; }
+.version-wndc .metrics-six { row-gap: 20px; }
+.version-wndc .value { font-size: 31px; }
+.version-wndc .publication { padding: 12px 0 13px; }
+.version-wndc .research-note { margin-top: 15px; }
+.version-wndc .talk { padding: 13px 0; }
+.version-wndc .company-section { padding-top: 34px; padding-bottom: 42px; }
+.version-wndc .company-logo { margin-bottom: 15px; }
+.version-wndc .company-role { margin-bottom: 12px; }
+.version-wndc .company-section p { margin-bottom: 12px; }
+.version-wndc .impact-metrics { margin-top: 22px; }
+.version-wndc .impact-metric { padding-top: 17px; padding-bottom: 16px; }
+.version-wndc .ip-summary { padding-top: 30px; padding-bottom: 44px; }
+.version-wndc .ip-stat { min-height: 138px; padding: 19px 24px 17px; }
+.version-wndc .ip-number { font-size: 45px; }
+.version-wndc .ip-label, .version-wndc .ip-action { margin-top: 9px; }
+.version-wndc .footer-inner { min-height: 104px; padding-top: 25px; padding-bottom: 25px; }
+.version-wndc .subpage-hero { padding-top: 42px; padding-bottom: 52px; }
+.version-wndc .subpage-hero h1 { font-size: 46px; margin-bottom: 15px; }
+.version-wndc .ip-tabs { margin: 27px 0 22px; }
+.version-wndc .ip-tab { min-height: 62px; padding: 13px 20px; }
+.version-wndc .patent-list li { padding-top: 10px; padding-bottom: 11px; }
+
+@media (max-width: 960px) and (min-width: 761px) {
+  .version-wndc .hero { grid-template-columns: 230px minmax(0, 1fr); gap: 34px; }
+  .version-wndc .hero h1 { font-size: 48px; }
+}
+
+@media (max-width: 760px) {
+  body.version-wndc { font-size: 15.5px; line-height: 1.64; }
+  .version-wndc .header-inner { min-height: 56px; }
+  .version-wndc .primary-nav { max-height: calc(100vh - 56px); padding-top: 5px; padding-bottom: 12px; }
+  .version-wndc .primary-nav a { min-height: 39px; }
+  .version-wndc .nav-toggle { width: 40px; height: 40px; }
+  .version-wndc .hero { gap: 20px; padding-top: 27px; padding-bottom: 30px; }
+  .version-wndc .portrait { width: 240px; margin: 0 auto; }
+  .version-wndc .hero h1 { font-size: 38px; margin-bottom: -3px; }
+  .version-wndc .hero h1 span { font-size: 19px; margin-top: 7px; }
+  .version-wndc .intro p { margin-bottom: 11px; }
+  .version-wndc .contact-line { margin-top: 2px; }
+  .version-wndc .section { padding-top: 26px; padding-bottom: 21px; }
+  .version-wndc .section h2 { font-size: 30px; margin-bottom: 18px; }
+  .version-wndc .subhead { font-size: 19px; margin-bottom: 11px; }
+  .version-wndc .awards-subhead, .version-wndc .program-subhead, .version-wndc .list-subhead { margin-top: 25px; }
+  .version-wndc .honor-item { padding: 9px 0 10px; }
+  .version-wndc .award { padding: 12px 0; }
+  .version-wndc .project { padding: 15px 0 16px; }
+  .version-wndc .metrics { margin: 20px 0 23px; padding: 14px 0; }
+  .version-wndc .metrics-three.metrics-six { row-gap: 17px; }
+  .version-wndc .value { font-size: 28px; }
+  .version-wndc .publication { padding: 11px 0 12px; }
+  .version-wndc .talk { padding: 12px 0; }
+  .version-wndc .company-section { padding-top: 28px; padding-bottom: 33px; }
+  .version-wndc .impact-metric { padding-top: 15px; padding-bottom: 14px; }
+  .version-wndc .impact-number { font-size: 27px; }
+  .version-wndc .impact-output .impact-number { font-size: 22px; }
+  .version-wndc .ip-summary { padding-top: 27px; padding-bottom: 34px; }
+  .version-wndc .ip-stat { min-height: 126px; padding: 16px 10px 14px; }
+  .version-wndc .ip-number { font-size: 35px; }
+  .version-wndc .subpage-hero { padding-top: 30px; padding-bottom: 40px; }
+  .version-wndc .subpage-hero h1 { font-size: 35px; }
+  .version-wndc .ip-tabs { margin: 23px 0 18px; }
+  .version-wndc .ip-tab { min-height: 56px; }
+}
